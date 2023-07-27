@@ -6,23 +6,18 @@
         <meta name="description" content="My personal portfolio">
         <meta name="author" content="Cikizwa Mene">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-    table, th, td {
-      border: 1px solid black;
-    }
-    </style>
     </head>
     <body>
         <h1>Cikizwa Mene</h1>
-        <img src="Cikizwa.jpg" alt="my photo"><br>
-        <img src="GitHub_Pic.webp" alt="Github pic">
-        <a href="https://github.com">my github</a>
-        <img src="LinkedIn.png" alt="LinkedIn pic">
-        <a href="https://za.linkedin.com">my linkedin</a>
-        <img src="Email_pic.png" alt="Email pic">
-        <a href="mailto:cikizwamene@gmail.com">my email</a><br>
-    
+        <p>
+            <img src="Cikizwa.jpg" alt="my photo">
+            <img src="GitHub_Pic.webp" alt="Github pic">
+            <a href="https://github.com">my github</a>
+            <img src="LinkedIn.png" alt="LinkedIn pic">
+            <a href="https://za.linkedin.com">my linkedin</a>
+            <img src="Email_pic.png" alt="Email pic">
+            <a href="mailto:cikizwamene@gmail.com">my email</a>
+        </p>    
 	    <p>I was born and raised in Eastern Cape, dreaming of becoming a software developer. I did some basic foundation courses in IT:</p>
         <ul>
             <li>Basics of Web design</li>
@@ -31,7 +26,7 @@
         </ul>
     
         <p> During my spare time I love reading, watching TV and do a bit of exercising for a   healthy mind. Below are my hobbies:</p>
-        <table>
+        <table border="1">
             <tr>
                 <th>Books</th>
                 <th>TV Shows</th>
@@ -55,15 +50,18 @@
         </table><br>
        
    	    <h2>Contact me</h2>
-		    <form action="/action_page.php">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br><br>
-                <label for="message">Message:</label>
-                <textarea id="mesage" name="message" rows="4" cols="35"></textarea><br><br>
-            
-  			    <input type="message" value="Send Message">
+		    <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="35"></textarea><br><br>
+                </div>
+                <div>   
+  			        <input type="message" value="Send Message">
+                </div> 
 		    </form> 
     
     </body>
